@@ -1,0 +1,390 @@
+/*---------------------------------------
+    RESPONSIVE STYLES               
+  -----------------------------------------*/
+@media screen and (min-width: 1025px) {
+  .job-featured-section .job-thumb {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .google-map {
+    height: 100%;
+  }
+
+  .job-tab {
+    width: 25%;
+  }
+
+  .criteria {
+    width: 25%;
+  }
+
+  .custom-form-profile {
+    width: 78%;
+    height: auto;
+  }
+
+  .custom-input-profile {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .section-padding,
+  .cta-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .about-page .about-section {
+    padding-top: 50px;
+  }
+
+  .custom-btn {
+    padding: 12px 20px;
+  }
+
+  .navbar-collapse {
+    padding-bottom: 20px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
+    margin-top: 10px;
+  }
+
+  .page-link {
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .custom-text-block {
+    padding: 50px 30px;
+  }
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .badge {
+    margin-top: 5px;
+  }
+
+  .counter-number,
+  .counter-number-text {
+    font-size: var(--h2-font-size);
+  }
+
+  .custom-border-radius-start {
+    border-radius: var(--border-radius-medium) var(--border-radius-medium) 0 0;
+  }
+
+  .custom-border-radius-end {
+    border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
+  }
+
+  .job-body p {
+    font-size: var(--btn-font-size);
+  }
+
+  .job-location {
+    min-width: 140px;
+  }
+
+  .job-price {
+    min-width: inherit;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+
+  .hero-form button[type="submit"] {
+    margin-bottom: 0;
+  }
+
+  .site-footer {
+    padding-top: 50px;
+  }
+
+  .site-footer-bottom {
+    margin-top: 50px;
+  }
+
+  #staticBackdrop .modal-content {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #exampleModalToggle .modal-content,
+  #exampleModalToggle2 .modal-content {
+    height: 100vh;
+  }
+
+  .handbook-page .nav-item::after {
+    width: 0;
+    height: 0;
+  }
+
+  .la-ban-su-nghiep-page .nav-item:nth-child(1)::after,
+  .tram-sac-ky-nang-page .nav-item:nth-child(2)::after,
+  .toa-do-nhan-tai-page .nav-item:nth-child(3)::after,
+  .ki-ot-vui-ve-page .nav-item:nth-child(4)::after {
+    width: 0;
+    height: 0;
+  }
+
+  .custom-form-profile {
+    width: 95%;
+    height: auto;
+  }
+
+  .custom-btn-profile {
+    width: 100%;
+  }
+
+  .special-text {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .special-text-home {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .handbook-ntd {
+    width: 90% !important;
+  }
+
+  .ntd-form-login,
+  .ntd-form-register {
+    width: 100% !important;
+    padding: 12px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .industries-block {
+    margin-left: 15px;
+  }
+  .industries .item {
+    width: calc(33.33vw - 30px);
+  }
+  .modal-dialog-scrollable .modal-content {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .job-tab {
+    width: 25%;
+  }
+
+  .criteria {
+    width: 25%;
+  }
+
+  .ntd-service-header {
+    width: 75% !important;
+  }
+
+  .ntd-form-login,
+  .ntd-form-register {
+    padding: 60px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .industries-block {
+    margin-left: 10px;
+  }
+
+  .industries .item {
+    width: calc(50vw - 30px);
+  }
+
+  .handbook {
+    width: 100%;
+  }
+
+  .modal-dialog-scrollable .modal-content {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .tilte-handbook {
+    font-size: 28px;
+  }
+
+  .job-tab {
+    width: 25%;
+  }
+
+  .criteria {
+    width: 25%;
+  }
+
+  .ntd-service-header {
+    width: 90% !important;
+  }
+
+  .ntd-form-login,
+  .ntd-form-register {
+    padding: 60px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  .badge {
+    margin: 10px 10px 5px 0;
+  }
+
+  .page-link {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .counter-thumb {
+    margin: 10px;
+  }
+
+  .counter-number,
+  .counter-number-text {
+    font-size: var(--h3-font-size);
+  }
+
+  .job-date {
+    margin-top: 5px;
+  }
+
+  .job-detail-share {
+    margin: 20px auto 0 auto;
+  }
+
+  .list-job {
+    padding: 0;
+  }
+
+  .job-thumb {
+    margin: 0;
+    margin-top: 12px;
+  }
+
+  .industries-block {
+    width: 220px;
+  }
+
+  .list-page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .list-page li {
+    margin: 2px;
+  }
+
+  .handbook-block {
+    padding: 0 10px;
+  }
+
+  .handbook {
+    width: 100%;
+  }
+
+  .handbook:nth-child(3) {
+    display: none;
+  }
+
+  .section-introducing {
+    padding: 10px;
+  }
+
+  .list-page {
+    margin-top: 15px;
+  }
+
+  .job-listings-page .side-bar {
+    margin-top: 15px;
+  }
+
+  .tilte-handbook {
+    font-size: var(--h4-font-size);
+  }
+
+  .job-tab {
+    width: 50%;
+  }
+
+  .criteria {
+    width: 100%;
+  }
+
+  .second-criteria {
+    width: 100%;
+  }
+
+  .ntd-service-header {
+    width: 95% !important;
+  }
+
+  .ntd-form-login,
+  .ntd-form-register {
+    padding: 30px !important;
+  }
+}
